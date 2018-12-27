@@ -1,0 +1,33 @@
+page-welcome {
+    .swiper-wrapper {
+      padding-bottom: 16px
+    }
+  
+    .swiper-pagination-bullet-active {
+      background: color($colors, danger);
+    }
+  
+    .swiper-container-horizontal > .swiper-pagination-bullets {
+      bottom: 5px;
+    }
+  
+    button[small] {
+      padding: 16px 2.6em
+    }
+  
+    .btn-tinder-login {
+      padding: 16px 3em;
+      font-weight: 700;
+      text-transform: none;
+      background: linear-gradient(260deg,#337eb9,#384499);
+    }
+    
+    ion-spinner {
+      display: block;
+      margin: auto;
+    }
+    .spinner svg {
+      width: 25px !important;
+      height: 25px !important;
+    } 
+  }

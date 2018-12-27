@@ -1,0 +1,7 @@
+{
+  "name": "balade",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

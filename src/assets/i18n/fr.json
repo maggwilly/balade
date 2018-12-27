@@ -1,0 +1,21 @@
+{
+    "HELLO": "Welcome to ",
+    "MENU" : {
+        "PORTUGUESE" : "in Portuguese", 
+      "ENGLISH" : "in English",
+      "FRENCH" : "in French"
+    }
+,
+"WELCOME":{
+     "TITLE":"" ,
+     "SLIDES":
+       {"DISCOVERPEOPLE":"Parcourez le monde et croisez de nouvelles personnes",
+        "SHARE":"Partagez vos instants de joie avec des personnes formidables",
+       "MATCH":"Lachez vous et faites de nouvelles rencontres"
+    },
+      "LOGINFACEBOOK":" SE CONNECTER PAR FACEBOOK ",
+      "NOTSHARINGONFACEBOOK":"Nous ne publions rien de vous sur facebook",
+      "READACCEPT":"En vous inscrivant, vous acceptez ",
+      "THERMSOFSERVICE":"les conditions générales d'utilisation"
+   }
+  }
