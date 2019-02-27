@@ -5,6 +5,39 @@ page-home {
 	}
 }
 
+#pref-btn {
+	position: fixed;
+	top: 50px;
+	left: 50%;
+	z-index: 99999999;
+	-webkit-transform: translate3d(-50%, -50%, 0);
+	transform: translate3d(-50%, -50%, 0);
+	width: 50%;
+	background-color: #fff;
+	color: #58565a;
+	text-align: center;
+	display: block;
+  }
+
+  .button-top{
+	z-index: 99999999;
+  }
+
+  #historique-btn {
+	position: fixed;
+	top: 28px;
+	left: 15px;
+	width: 30px;
+	height: 45px;
+	border-radius: 100%;
+	z-index: 99999999;
+	background-color: rgba(2, 0, 0, 0.1);
+	color: #fff;
+	font-size: 1.4em;
+	text-align: center;
+	display: block;
+  }
+
 .ios {
 	modal-call {
 		#local {

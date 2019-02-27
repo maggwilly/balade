@@ -5,8 +5,13 @@
   Ionic pages and navigation.
 -->
 <ion-content scroll="false">
-	<div class="videos inCallUI">
-		<video playsinline id="remote" autoplay="true" *ngIf="callService.remoteVideo" [src]="callService.remoteVideo"></video>
-		<video playsinline id="local" muted="muted" autoplay="true" *ngIf="callService.localStream"  [ngClass]="{preview: true}"></video>
+	<div clqss="button-top">
+			<button id="pref-btn" ion-button round color="primary" icon-left (click)="preferences()">    <ion-icon name="ios-funnel"></ion-icon>   <span >Preférences</span>  </button>	
+			<button id="historique-btn" ion-button round  icon-left (click)="historiques()"><ion-icon name="refresh"></ion-icon></button>		
+	</div>
+
+	<div class="videos inCallUI" [hidden]="!callService.localStream">
+		<video playsinline id="local" muted="muted" autoplay="true"   [ngClass]="{preview: true}"></video>
 	</div>
 </ion-content>
+<super-taps [selected]="two" (select)="select($event)"></super-taps>

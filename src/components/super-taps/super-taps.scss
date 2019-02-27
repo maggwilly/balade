@@ -1,0 +1,61 @@
+super-taps {
+     ion-footer {
+      border-top: none;
+        height: 56px;
+      }
+      
+       ion-footer ion-col {
+        text-align: center;
+      }
+      
+       ion-footer ion-col ion-icon {
+        font-size: 2.1em !important;
+      }
+
+
+       ion-footer #profil {
+        text-align: left;
+        ion-icon {
+          color: white;
+        }
+      }
+      
+       ion-footer #chats {
+        text-align: right;
+        ion-icon {
+          color: white;
+        }
+      }
+      
+       ion-footer #accueil {
+        border-radius: 100%;
+        margin-top: -20px;
+        height: 40px;
+        width: 40px;
+        font-size: 15px;
+        padding: 0.2em 0.0em 0.0em 0.2em;
+        text-align: center;
+        background: #fff;
+        border-top: 0.7px solid rgba(150, 150, 150, 0.55);
+      }
+      
+       ion-footer #accueil ion-icon {
+        font-size: 2.5em !important;
+      }
+      
+       button.active ion-icon {
+        color: blue;
+        font-style: bold;
+      }
+      
+       ion-footer.home {
+        //background: #fff;
+        border-top: none;
+        background-color: transparent !important;
+      }
+      
+       ion-footer.not-home {
+        border-top: none;
+        background-color: transparent !important;
+      }
+}

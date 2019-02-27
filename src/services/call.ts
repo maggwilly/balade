@@ -241,11 +241,12 @@ export class CallService {
 
 	// add local stream
 	addStream(stream, timeout) {
-		this.localStream = stream;
+	
 		setTimeout(() => {
+			this.localStream = stream;
 			//this.localVideo = this.sanitizer.bypassSecurityTrustUrl(window.URL.createObjectURL(stream));
 			// this.sanitizer.bypassSecurityTrustUrl(URL.createObjectURL(stream));
-			var video = document.getElementById('local');
+			let video:any = document.getElementById('local');
 			try {
 				this.localVideo =stream
 				video.src = this.sanitizer.bypassSecurityTrustUrl(URL.createObjectURL(stream));

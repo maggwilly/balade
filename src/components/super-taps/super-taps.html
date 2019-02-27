@@ -1,0 +1,17 @@
+<ion-fab center bottom>
+    <button ion-fab color="light" [class.active]="(selected == 'two')" (click)="click( 'two')"><ion-icon name="logo-chrome" ></ion-icon></button>
+  </ion-fab>
+<ion-footer [class.home]="(selected == 'two')" [class.not-home]="(selected != 'two')">
+    <ion-row nowrap="nowrap" justify-content-center="justify-content-center" align-items-center="align-items-center">
+        <ion-col id="profil">
+            <button ion-button clear [class.active]="(selected == 'one')" (click)="click( 'one')">
+                <ion-icon name="person"></ion-icon>
+            </button>
+        </ion-col>
+        <ion-col id="chats">
+            <button ion-button clear [class.active]="(selected == 'three')" (click)="click( 'three')">
+                <ion-icon name="chatbubbles"></ion-icon>
+            </button>
+        </ion-col>
+    </ion-row>
+</ion-footer>

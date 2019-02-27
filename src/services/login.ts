@@ -35,6 +35,7 @@ export class LoginService {
 		public fb: Facebook) {
 		this.socket.connect();
 		this.socket.on('connect', socket => {
+	         console.log('connected')             
 			 this.auth(true);
 			 //this.go()
 			});
